@@ -13,8 +13,6 @@ public class CommunitySampleApp {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		BasicConfigurator.configure();
-		
 		// Instantiation needed for dependency injection
 		CommunitySampleApp obj = new CommunitySampleApp();
 		
