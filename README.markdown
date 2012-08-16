@@ -8,3 +8,4 @@ More information about the discussion:
 * [Mailing List](http://www.mail-archive.com/dspace-devel@lists.sourceforge.net/msg08796.html)
 * [Wiki @ Duraspace](https://wiki.duraspace.org/display/DSPACE/Refactoring+the+DSpace+Domain+Model)
 
+More details: [here](https://github.com/lyncode/dspace-data-layer/wiki)
