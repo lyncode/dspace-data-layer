@@ -17,8 +17,8 @@ public class CommunitySampleApp {
 		
 		CommunitySampleApp obj = new CommunitySampleApp();
 		
-        ApplicationContextLoader loader = new ApplicationContextLoader();
-        loader.load(obj, "/META-INF/spring/applicationContext.xml");
+        	ApplicationContextLoader loader = new ApplicationContextLoader();
+        	loader.load(obj, "/META-INF/spring/applicationContext.xml");
         
 		List<Community> comms = Community.findAllCommunitys();
 		
