@@ -15,11 +15,14 @@ public class CommunitySampleApp {
 	public static void main(String[] args) {
 		BasicConfigurator.configure();
 		
+		// Instantiation needed for dependency injection
 		CommunitySampleApp obj = new CommunitySampleApp();
 		
+		// Injecting dependencies
         	ApplicationContextLoader loader = new ApplicationContextLoader();
         	loader.load(obj, "/META-INF/spring/applicationContext.xml");
-        
+        	
+        	// Application Initialized, start doing the work
 		List<Community> comms = Community.findAllCommunitys();
 		
 		for (Community com : comms)
